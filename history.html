@@ -11,32 +11,58 @@ body {
   font-family: "Segoe UI", sans-serif;
   background: #f4f6f5;
 }
+
 header {
   background: #263238;
   color: white;
   padding: 60px 20px;
   text-align: center;
 }
+
 nav {
   background: #37474f;
   text-align: center;
 }
+
 nav a {
   color: white;
   padding: 15px 20px;
   display: inline-block;
   text-decoration: none;
 }
+
+nav a:hover {
+  background: #263238;
+}
+
 section {
   max-width: 1000px;
   margin: auto;
   padding: 50px 20px;
 }
+
 .card {
   background: white;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.images img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.sources {
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 </style>
 </head>
@@ -57,17 +83,57 @@ section {
 <section>
   <div class="card">
     <p>
-      Black Angus cattle originated in northeastern Scotland during the early 1800s.
-      Local farmers selectively bred native cattle to improve meat quality,
-      fertility, and durability.
+      Black Angus cattle originated in northeastern Scotland in the early 1800s,
+      primarily in the counties of Aberdeen, Banff, Kincardine, and Angus.
+      Farmers selectively bred native cattle to improve meat quality,
+      fertility, and hardiness.
     </p>
+
     <p>
-      The breed was first imported to the United States in 1873, where it rapidly
-      gained popularity due to its polled genetics and superior beef.
+      The breed became known as Aberdeen Angus and was recognized for its
+      naturally polled (hornless) trait, which is genetically dominant.
     </p>
+
     <p>
-      Over time, selective breeding has increased size, growth efficiency,
-      marbling, and consistency.
+      Angus cattle were first imported into the United States in 1873.
+      They quickly gained popularity due to their adaptability,
+      strong maternal traits, and superior beef quality.
+    </p>
+
+    <p>
+      Over time, selective breeding programs have improved growth rates,
+      feed efficiency, carcass quality, and genetic consistency,
+      making Black Angus one of the most influential beef breeds worldwide.
+    </p>
+
+    <p class="caption">
+      Information Sources: Encyclopædia Britannica; American Angus Association; 
+      Oklahoma State University Animal Science Department
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="card images">
+    <h2>Historic Angus Cattle</h2>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Aberdeen_Angus_bull.jpg" alt="Aberdeen Angus bull">
+    <p class="caption">
+      Image Source: Wikimedia Commons – Aberdeen Angus bull (public domain image)
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="card sources">
+    <h2>Sources</h2>
+    <p>
+      Encyclopædia Britannica. “Angus Breed of Cattle.”  
+      <br><br>
+      American Angus Association. Breed History and Genetic Information.  
+      <br><br>
+      Oklahoma State University, Department of Animal & Food Sciences. 
+      “Angus Cattle Breed Profile.”
     </p>
   </div>
 </section>
