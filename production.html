@@ -11,32 +11,58 @@ body {
   font-family: "Segoe UI", sans-serif;
   background: #eef2f1;
 }
+
 header {
   background: linear-gradient(120deg, #2e7d32, #004d40);
   color: white;
   padding: 60px 20px;
   text-align: center;
 }
+
 nav {
   background: #004d40;
   text-align: center;
 }
+
 nav a {
   color: white;
   padding: 15px 20px;
   display: inline-block;
   text-decoration: none;
 }
+
+nav a:hover {
+  background: #00332e;
+}
+
 section {
   max-width: 1000px;
   margin: auto;
   padding: 50px 20px;
 }
+
 .card {
   background: white;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.images img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+.sources {
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 </style>
 </head>
@@ -59,23 +85,59 @@ section {
     <h2>Purpose</h2>
     <p>
       Black Angus cattle are raised primarily for beef production.
-      Their meat is known for tenderness, flavor, and marbling.
+      They are internationally recognized for producing meat with high levels
+      of marbling, which contributes to tenderness, juiciness, and flavor.
+      Angus genetics are widely used in both purebred and crossbreeding
+      programs to improve carcass quality.
     </p>
 
     <h2>Strengths</h2>
     <ul>
-      <li>High carcass quality</li>
-      <li>Efficient feed conversion</li>
-      <li>Polled genetics</li>
-      <li>Strong market demand</li>
+      <li>High carcass quality and marbling</li>
+      <li>Efficient feed conversion and growth performance</li>
+      <li>Naturally polled (hornless) genetics</li>
+      <li>Strong consumer demand and premium beef markets</li>
+      <li>Well-documented genetic records and performance data</li>
     </ul>
 
     <h2>Weaknesses</h2>
     <ul>
-      <li>Lower heat tolerance</li>
-      <li>Dark coats absorb heat</li>
-      <li>Requires genetic management</li>
+      <li>Lower heat tolerance compared to some tropical breeds</li>
+      <li>Dark coat color absorbs more heat in hot climates</li>
+      <li>Requires careful genetic management to avoid inherited conditions</li>
     </ul>
+
+    <p class="caption">
+      Information Sources: Certified Angus Beef; American Angus Association; 
+      USDA; Oklahoma State University Animal Science
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="card images">
+    <h2>Black Angus in Beef Production</h2>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Angus_cattle.jpg" alt="Black Angus cattle in pasture">
+    <p class="caption">
+      Image Source: Wikimedia Commons – Angus cattle in pasture (public domain image)
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="card sources">
+    <h2>Sources</h2>
+    <p>
+      Certified Angus Beef®. “Brand Standards and Quality Specifications.”  
+      <br><br>
+      American Angus Association. Performance Records and Breed Information.  
+      <br><br>
+      United States Department of Agriculture (USDA). Beef Quality & Grading Standards.  
+      <br><br>
+      Oklahoma State University, Department of Animal & Food Sciences. 
+      “Angus Breed Profile.”
+    </p>
   </div>
 </section>
 
